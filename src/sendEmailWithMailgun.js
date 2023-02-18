@@ -7,8 +7,8 @@
 //   key: "key",
 // });
 // mg.messages
-//   .create("sandbox593b4dce08b64888950e9aa2382bf3ab.mailgun.org", {
-//     from: "Mailgun Sandbox <postmaster@sandbox593b4dce08b64888950e9aa2382bf3ab.mailgun.org>",
+//   .create("sandbox.mailgun.org", {
+//     from: "Mailgun Sandbox <postmaster@sandbox.mailgun.org>",
 //     to: ["ivkrish143007@gmail.com"],
 //     subject: "Hello",
 //     text: "Testing some Mailgun awesomness!",
@@ -19,7 +19,7 @@
 // send email
 const mailgun = require("mailgun-js");
 
-const DOMAIN = "sandbox593b4dce08b64888950e9aa2382bf3ab.mailgun.org";
+const DOMAIN = "sandbox.mailgun.org";
 const API_KEY = "key";
 
 const mg = mailgun({ apiKey: API_KEY, domain: DOMAIN });
