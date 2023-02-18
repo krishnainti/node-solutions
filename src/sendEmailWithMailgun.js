@@ -4,7 +4,7 @@
 // const mailgun = new Mailgun(formData);
 // const mg = mailgun.client({
 //   username: "api",
-//   key: "7b31654ec5f4e8cedc6e518f4493889c-ca9eeb88-807398a6",
+//   key: "key",
 // });
 // mg.messages
 //   .create("sandbox593b4dce08b64888950e9aa2382bf3ab.mailgun.org", {
